@@ -23,3 +23,8 @@ D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM,
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.pdb
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
