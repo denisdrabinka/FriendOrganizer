@@ -17,3 +17,9 @@ D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM,
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.pdb
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.xml
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.pdb
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
