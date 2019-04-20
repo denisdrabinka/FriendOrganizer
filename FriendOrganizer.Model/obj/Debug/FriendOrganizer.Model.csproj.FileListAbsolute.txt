@@ -1,5 +1,4 @@
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
-D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojResolveAssemblyReference.cache
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
