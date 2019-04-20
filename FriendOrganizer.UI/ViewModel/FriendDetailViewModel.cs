@@ -20,12 +20,12 @@ namespace FriendOrganizer.UI.ViewModel
         private FriendWrapper _friend;
 
         public FriendDetailViewModel(IFriendDataService dataService,
-            IEventAggregator eventAggregator)
+          IEventAggregator eventAggregator)
         {
             _dataService = dataService;
             _eventAggregator = eventAggregator;
             _eventAggregator.GetEvent<OpenFriendDetailViewEvent>()
-        .Subscribe(OnOpenFriendDetailView);
+              .Subscribe(OnOpenFriendDetailView);
 
             SaveCommand = new DelegateCommand(OnSaveExecute, OnSaveCanExecute);
         }
@@ -35,6 +35,14 @@ namespace FriendOrganizer.UI.ViewModel
             var friend = await _dataService.GetByIdAsync(friendId);
 
             Friend = new FriendWrapper(friend);
+            Friend.PropertyChanged += (s, e) =>
+            {
+                if (e.PropertyName == nameof(Friend.HasErrors))
+                {
+                    ((DelegateCommand)SaveCommand).RaiseCanExecuteChanged();
+                }
+            };
+            ((DelegateCommand)SaveCommand).RaiseCanExecuteChanged();
         }
 
         public FriendWrapper Friend
@@ -49,30 +57,26 @@ namespace FriendOrganizer.UI.ViewModel
 
         public ICommand SaveCommand { get; }
 
-        private bool OnSaveCanExecute()
-        {
-            // TODO: Check if friend is valid
-            return true;
-        }
-
         private async void OnSaveExecute()
         {
             await _dataService.SaveAsync(Friend.Model);
             _eventAggregator.GetEvent<AfterFriendSavedEvent>().Publish(
-        new AfterFriendSavedEventArgs
-        {
-            Id = Friend.Id,
-            DisplayMember = $"{Friend.FirstName} {Friend.LastName}"
-        });
+              new AfterFriendSavedEventArgs
+              {
+                  Id = Friend.Id,
+                  DisplayMember = $"{Friend.FirstName} {Friend.LastName}"
+              });
+        }
 
+        private bool OnSaveCanExecute()
+        {
+            // TODO: Check in addition if friend has changes
+            return Friend != null && !Friend.HasErrors;
         }
 
         private async void OnOpenFriendDetailView(int friendId)
         {
             await LoadAsync(friendId);
         }
-
-
-
     }
 }
