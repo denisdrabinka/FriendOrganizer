@@ -2,9 +2,14 @@
 
 namespace FriendOrganizer.UI.ViewModel
 {
-    public interface IFriendDetailViewModel
+    public interface IDetailViewModel
     {
         Task LoadAsync(int? friendId);
         bool HasChanges { get; }
+    }
+
+    public interface IFriendDetailViewModel : IDetailViewModel
+    {
+        
     }
 }
