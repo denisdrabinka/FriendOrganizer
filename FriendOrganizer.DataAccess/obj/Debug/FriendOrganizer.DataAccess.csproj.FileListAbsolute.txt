@@ -12,3 +12,4 @@ D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM,
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.Cache
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.AddedProgrammingLanguage.resources
