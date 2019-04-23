@@ -49,3 +49,5 @@ D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM,
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.g.cs
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.baml

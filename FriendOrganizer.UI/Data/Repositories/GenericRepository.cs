@@ -27,6 +27,11 @@ namespace FriendOrganizer.UI.Data.Repositories
             return await Context.Set<TEntity>().FindAsync(id);
         }
 
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
+        {
+            return await Context.Set<TEntity>().ToListAsync();
+        }
+
         public bool HasChanges()
         {
             return Context.ChangeTracker.HasChanges();
