@@ -51,3 +51,9 @@ D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM,
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.g.cs
 D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.baml
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\ControlzEx.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\MahApps.Metro.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Windows.Interactivity.dll
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\ControlzEx.pdb
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\MahApps.Metro.pdb
+D:\програмирование\WPF\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\my\FriendOrganizer\FriendOrganizer.UI\bin\Debug\MahApps.Metro.xml

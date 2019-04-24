@@ -188,11 +188,11 @@ namespace FriendOrganizer.UI.ViewModel
         {
             if (await _friendRepository.HasMeetingsAsync(Friend.Id))
             {
-                MessageDialogService.ShowInfoDialog($"{Friend.FirstName} {Friend.LastName} can't be deleted, as this friend is part of at least one meeting");
+              await  MessageDialogService.ShowInfoDialogAsync($"{Friend.FirstName} {Friend.LastName} can't be deleted, as this friend is part of at least one meeting");
                 return;
             }
 
-            var result = MessageDialogService.ShowOkCancelDialog($"Do you really want to delete the friend {Friend.FirstName} {Friend.LastName}?",
+            var result = await MessageDialogService.ShowOkCancelDialogAsync($"Do you really want to delete the friend {Friend.FirstName} {Friend.LastName}?",
         "Question");
             if (result == MessageDialogResult.OK)
             {
@@ -241,43 +241,5 @@ namespace FriendOrganizer.UI.ViewModel
             }
         }
 
-        protected async Task SaveWithOptimisticConcurrencyAsync(Func<Task> saveFunc,
-      Action afterSaveAction)
-        {
-            try
-            {
-                await saveFunc();
-            }
-            catch (DbUpdateConcurrencyException ex)
-            {
-                var databaseValues = ex.Entries.Single().GetDatabaseValues();
-                if (databaseValues == null)
-                {
-                    MessageDialogService.ShowInfoDialog("The entity has been deleted by another user");
-                    RaiseDetailDeletedEvent(Id);
-                    return;
-                }
-
-                var result = MessageDialogService.ShowOkCancelDialog("The entity has been changed in "
-                 + "the meantime by someone else. Click OK to save your changes anyway, click Cancel "
-                 + "to reload the entity from the database.", "Question");
-
-                if (result == MessageDialogResult.OK)
-                {
-                    // Update the original values with database-values
-                    var entry = ex.Entries.Single();
-                    entry.OriginalValues.SetValues(entry.GetDatabaseValues());
-                    await saveFunc();
-                }
-                else
-                {
-                    // Reload entity from database
-                    await ex.Entries.Single().ReloadAsync();
-                    await LoadAsync(Id);
-                }
-            };
-
-            afterSaveAction();
-        }
     }
 }
